@@ -1,0 +1,51 @@
+{
+  "name": "pic-li",
+  "version": "1.0.0",
+  "description": "PIC-LI — Project Initializer Command. One command to scaffold any stack.",
+  "author": "Dhayanith dhayanithi10409@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/its-dhaya/pic-li.git"
+  },
+  "homepage": "https://github.com/its-dhaya/pic-li#readme",
+  "bugs": {
+    "url": "https://github.com/its-dhaya/pic-li/issues"
+  },
+  "bin": {
+    "pic": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js --help"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "open": "^8.4.2",
+    "ora": "^5.4.1",
+    "prompts": "^2.4.2",
+    "string-width": "^8.2.1",
+    "strip-ansi": "^7.2.0",
+    "which": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "project-generator",
+    "boilerplate",
+    "pic-li",
+    "fastapi",
+    "react",
+    "flutter",
+    "spring-boot",
+    "nextjs",
+    "mern",
+    "go",
+    "template"
+  ],
+  "license": "MIT"
+}

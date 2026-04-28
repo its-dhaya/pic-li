@@ -1,0 +1,26 @@
+# Tests and dev artifacts
+*.test.js
+*.spec.js
+coverage/
+.nyc_output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.env
+*.log
+
+
+node_modules/
+.github/
+.gitignore
+CONTRIBUTING.md
+CHANGELOG.md
