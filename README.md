@@ -13,7 +13,7 @@
 
 ### From npm (once published)
 ```bash
-npm install -g pic-li
+npm install -g pic-cli-tool
 ```
 
 ### From source
